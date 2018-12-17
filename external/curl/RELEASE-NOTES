@@ -1,0 +1,42 @@
+Curl and libcurl 7.63.0
+
+ Public curl releases:         178
+ Command line options:         219
+ curl_easy_setopt() options:   261
+ Public functions in libcurl:  80
+ Contributors:                 1808
+
+This release includes the following changes:
+
+ o
+
+This release includes the following bugfixes:
+
+ o axtls: removed [1]
+ o runtests: use the local curl for verifying [6]
+ o schannel: better CURLOPT_CERTINFO support [2]
+ o schannel: use Curl_ prefix for global private symbols [4]
+ o tests: drop http_pipe.py script no longer used [5]
+ o travis: build with clang sanitizers [3]
+
+This release includes the following known bugs:
+
+ o see docs/KNOWN_BUGS (https://curl.haxx.se/docs/knownbugs.html)
+
+This release would not have looked like this without help, code, reports and
+advice from friends like these:
+
+  Alessandro Ghedini, Daniel Gustafsson, Daniel Stenberg, Kamil Dudka,
+  Marcos Diazr,
+  (5 contributors)
+
+        Thanks! (and sorry if I forgot to mention someone)
+
+References to bug reports and discussions on issues:
+
+ [1] = https://curl.haxx.se/bug/?i=3194
+ [2] = https://curl.haxx.se/bug/?i=3197
+ [3] = https://curl.haxx.se/bug/?i=3190
+ [4] = https://curl.haxx.se/bug/?i=3201
+ [5] = https://curl.haxx.se/bug/?i=3204
+ [6] = https://curl.haxx.se/mail/lib-2018-10/0118.html
