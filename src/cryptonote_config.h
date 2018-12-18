@@ -164,10 +164,10 @@ namespace config
     } }; // Turd's nightmare
   std::string const GENESIS_TX = "013c01ff0001ffffffffffff03029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121017767aafcde9be00dcfd098715ebcf7f410daebc582fda69d24a28e9d0bc890d1"; // Deleted Genesis Hash we'll add upon mainnet launch along with fork hashes and new fork blocks (since we keep nerva's fork changes and not merging them cause we are too lazy and too scammy)
   uint32_t const GENESIS_NONCE = 9876;
- // std::set<std::string> const seed_nodes = {
- //     "82.37.88.209:12210",
- //     "51.68.46.120:12210",
- //     "185.229.236.165:12210"};
+  std::set<std::string> const seed_nodes = {
+    "82.37.88.209:12210",
+     "51.68.46.120:12210",
+     "185.229.236.165:12210"};
 
   namespace testnet
   {
@@ -183,11 +183,10 @@ namespace config
     // leaving the genesis hash unaltered we are too romanian too have a testnet we dont need it 
     std::string const GENESIS_TX = "013c01ff0001ffffffffffff03029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121017767aafcde9be00dcfd098715ebcf7f410daebc582fda69d24a28e9d0bc890d1";
     uint32_t const GENESIS_NONCE = 10001;
-// same
-//    std::set<std::string> const seed_nodes = {
-//      "82.37.88.209:22210",
-//      "51.68.46.120:22210",
-//      "185.229.236.165:22210"};
+    std::set<std::string> const seed_nodes = {
+      "82.37.88.209:22210",
+      "51.68.46.120:22210",
+      "185.229.236.165:22210"};
   }
 
   namespace stagenet
@@ -204,11 +203,10 @@ namespace config
       } }; // Bender's daydream
     std::string const GENESIS_TX = "013c01ff0001ffffffffffff0302df5d56da0c7d643ddd1ce61901c7bdc5fb1738bfe39fbe69c28a3a7032729c0f2101168d0c4ca86fb55a4cf6a36d31431be1c53a3bd7411bb24e8832410289fa6f3b";
     uint32_t const GENESIS_NONCE = 10002;
-// facepalm
-//    std::set<std::string> const seed_nodes = {
-//      "82.37.88.209:32210",
-//      "51.68.46.120:32210",
-//      "185.229.236.165:32210"};
+    std::set<std::string> const seed_nodes = {
+      "82.37.88.209:32210",
+      "51.68.46.120:32210",
+      "185.229.236.165:32210"};
   }
 }
 
