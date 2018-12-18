@@ -82,8 +82,8 @@
 #define DIFFICULTY_BLOCKS_COUNT                         DIFFICULTY_WINDOW + DIFFICULTY_LAG
 
 #define DIFFICULTY_BLOCKS_ESTIMATE_TIMESPAN             DIFFICULTY_TARGET //just alias; used by tests
-#define DIFFICULTY_WINDOW_V2                            34 (reduced i guess to 17 due to high rate of emission doubling it)
-#define DIFFICULTY_CUT_V2                               12 (increasing this too short)
+#define DIFFICULTY_WINDOW_V2                            34 //(reduced i guess to 17 due to high rate of emission doubling it)
+#define DIFFICULTY_CUT_V2                               12 // (increasing this too short)
 #define DIFFICULTY_BLOCKS_COUNT_V2                      DIFFICULTY_WINDOW_V2 + DIFFICULTY_CUT_V2*2
 
 #define DIFFICULTY_WINDOW_V3                            120
