@@ -162,10 +162,9 @@ namespace config
   boost::uuids::uuid const NETWORK_ID = { {
       0xcd, 0xac, 0x50, 0x2e, 0xb3, 0x74, 0x8f, 0xf2, 0x0f, 0xb7, 0x72, 0x18, 0x0f, 0x73, 0x24, 0x13
     } }; // Turd's nightmare
-  std::string const GENESIS_TX = "  "; // Deleted Genesis Hash we'll add upon mainnet launch along with fork hashes and new fork blocks (since we keep nerva's fork changes and not merging them cause we are too lazy and too scammy)
-  uint32_t const GENESIS_NONCE = 10000;
-// What the fuck stupid Kyrgyz i told you to add these to net_node.inl on src/p2p, not here
-  // std::set<std::string> const seed_nodes = {
+  std::string const GENESIS_TX = "013c01ff0001ffffffffffff03029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121017767aafcde9be00dcfd098715ebcf7f410daebc582fda69d24a28e9d0bc890d1"; // Deleted Genesis Hash we'll add upon mainnet launch along with fork hashes and new fork blocks (since we keep nerva's fork changes and not merging them cause we are too lazy and too scammy)
+  uint32_t const GENESIS_NONCE = 9876;
+ // std::set<std::string> const seed_nodes = {
  //     "82.37.88.209:12210",
  //     "51.68.46.120:12210",
  //     "185.229.236.165:12210"};
