@@ -165,7 +165,7 @@ namespace config
   std::string const GENESIS_TX = "013c01ff0001ffffffffffff03029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121017767aafcde9be00dcfd098715ebcf7f410daebc582fda69d24a28e9d0bc890d1"; // Deleted Genesis Hash we'll add upon mainnet launch along with fork hashes and new fork blocks (since we keep nerva's fork changes and not merging them cause we are too lazy and too scammy)
   uint32_t const GENESIS_NONCE = 9876;
   std::set<std::string> const seed_nodes = {
-    "82.37.88.209:12210",
+     "82.37.88.209:12210",
      "51.68.46.120:12210",
      "185.229.236.165:12210"};
 
